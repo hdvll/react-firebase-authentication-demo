@@ -10,9 +10,15 @@ nav {
   align-items: center;
 }
 
-nav i {
+nav svg {
   margin-left: 0.5rem;
   font-size: 1.4rem;
+  width: 30px;
+  height: auto;
+}
+
+.loginBtn:hover svg {
+  fill: white;
 }
 
 .loginBtn {
