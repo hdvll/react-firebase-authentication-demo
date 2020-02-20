@@ -16,7 +16,7 @@ Create a new file in src/components/Firebase called `firebaseConfig.js` with you
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
-export default {
+const firebaseConfig = {
   apiKey: '<your key>',
   authDomain: '<your auth domain>',
   databaseURL: '<your database url>',
